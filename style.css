@@ -1,0 +1,40 @@
+/* Estilo geral em dark mode */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    text-align: center;
+    background: #121212;
+    /* fundo preto quase puro */
+    color: #e0e0e0;
+    /* texto cinza claro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Título principal */
+h1 {
+    margin: 20px 0;
+    font-size: 2em;
+    color: #ffffff;
+
+}
+
+/* Container dos gráficos */
+.chart-container {
+    width: 100%;
+    /* diminuído proporcionalmente */
+    max-width: 800px;
+    margin: 25px auto;
+    background: #1c1c1c;
+    padding: 12px;
+    /* padding menor */
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.8);
+}
+
+/* Ajuste do canvas (gráficos) */
+canvas {
+    background: #121212;
+    /* fundo do gráfico */
+    border-radius: 10px;
+    padding: 10px;
+}
