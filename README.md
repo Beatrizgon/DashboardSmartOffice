@@ -30,6 +30,7 @@ Ideal para estudos de **gestão de projetos**, **IoT** e **análise de dados sim
 1. **Clonar o repositório**
 ```bash
 git clone https://github.com/SEU_USUARIO/smart_office_project.git
+python -m http.server
 cd smart_office_project
 pip install pandas numpy python-docx
 python simulador_smart_office.py
