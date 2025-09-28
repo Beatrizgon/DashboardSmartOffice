@@ -28,6 +28,7 @@ Ideal para estudos de **gestão de projetos**, **IoT** e **análise de dados sim
 ## ⚙️ Como rodar o projeto localmente
 
 1. **Clonar o repositório**
+2. localhost:8000/index.html
 ```bash
 git clone https://github.com/SEU_USUARIO/smart_office_project.git
 python -m http.server
